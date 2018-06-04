@@ -49,6 +49,7 @@ public class HomeController {
 		return "casa";
 	}
 	
+	//Comentario para git
 	@RequestMapping(value="/bienvenidosparameters", method=RequestMethod.GET)
 	public String holaCasaParameters(ModelMap modelMap, @RequestParam("colorid") String colorid) {
 		//http://localhost:8080/ejemplos/bienvenidosparameters?colorid=rosa
